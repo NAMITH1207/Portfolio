@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namith's Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
+</head>
+<body>
+    <div class="new">
+        <nav id="desktop-nav">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      
+      
+      <section id="profile">
+        <div class="profile-content">
+          <div class="section__pic-container">
+            <img src="/images/namith.png" alt="K Namith Acharya profile picture" />
+          </div>
+          
+          <div class="section__text">
+            <p class="section__text__p">" The journey of a thousand miles begins with one step "</p><br>
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">K Namith Acharya</h1>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+              <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="socials-wrapper">
+              <div id="socials-container">
+                <img src="/images/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'" />
+                <img src="/images/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+
+
+      <!-- ABOUT -->
+
+      <section id="about">
+        <div class="about-header-container">
+          <p class="section__text__p3">Get To Know More</p>
+          <h1 class="title_1">About Me</h1>
+        </div>
+        <div class="intro-text">
+          <p>
+            I am K Namith Acharya, a passionate software developer with a keen interest in building innovative solutions and problem-solving. My journey in the field of technology began early and has been enriched through various academic and practical experiences.
+          </p>
+        </div>
+        <div class="about-section">
+          <div class="about-education">
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">2021-2024</div>
+                <div class="timeline-content">
+                  <p>St. Aloysius (Autonomous) College, Mangalore</p>
+                  <p class="new">Bachelor of Computer Application</p>
+                  <p class="new">Percentage Obtained : 80.78 %</p>
+                  
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2019-2021</div>
+                <div class="timeline-content">
+                  <p>St. Aloysius PU College, Mangalore</p><br>
+                  <p class="new">BSBA</p><br>
+                  <p class="new">Percentage Obtained : 88.33 %</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2009-2019</div>
+                <div class="timeline-content">
+                  <p>St. Aloysius English Medium School, Mangalore</p>
+                  <p class="new">Percentage Obtained : 81.60 %</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-achievements">
+            <h3>Achievements</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                  <p>Winners of National Level IT Quiz at AIMIT</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                  <p>Overall Runners-up at Utopia</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                  <p>Successfully Led the Finance Committee in the Composite Fest as Finance Committee Head</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2022-2024</div>
+                <div class="timeline-content">
+                  <p>Received Merit Certificates for Academic Years 2022-2023 and 2023-2024</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2018-2021</div>
+                <div class="timeline-content">
+                  <p>Winners of Interschool and Intercollege Cricket Tournament</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <section id="experience">
+          <div class="about-section-exp" >
+            <div class="about-exp">
+              <h3>Experience</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-date">2023-2024</div>
+                  <div class="timeline-content">
+                      <p>Business Analyst Intern</p>
+                      <p class="new">Zephyr Technologies and Solutions PVT</p>
+                      <p class="new">Dec 2023 - Jan 2024 </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+      </section>
+      <br>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <p class="section__text__p3">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <br><br>
+        <div class="container">
+          <div class="p1 card">
+            <div class="content-wrapper">
+              <div class="card-inner">
+                <div class="card-front">
+                  <div class="img-container">
+                    <img src="" alt="Project 1" class="project-img" />
+                  </div>
+                  <div class="text-proj">
+                    <h2>PROJECT ONE</h2>
+                  </div>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn about-btn">Description</button>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="project-description">
+                    <h2>Project Description</h2>
+                    <p>This is the description of Project One.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="p2 card">
+            <div class="content-wrapper">
+              <div class="card-inner">
+                <div class="card-front">
+                  <div class="img-container">
+                    <img src="" alt="Project 2" class="project-img" />
+                  </div>
+                  <div class="text-proj">
+                    <h2>PROJECT TWO</h2>
+                  </div>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn about-btn">Description</button>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="project-description">
+                    <h2>Project Description</h2>
+                    <p>This is the description of Project Two.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="p3 card">
+            <div class="content-wrapper">
+              <div class="card-inner">
+                <div class="card-front">
+                  <div class="img-container">
+                    <img src="" alt="Project 3" class="project-img" />
+                  </div>
+                  <div class="text-proj">
+                    <h2>PROJECT THREE</h2>
+                  </div>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn about-btn">Description</button>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="project-description">
+                    <h2>Project Description</h2>
+                    <p>This is the description of Project Three.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <p class="section__text__p3">Discover My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-marquee">
+          <div class="marquee-content">
+            <img src="/images/java.png" alt="Java" class="skill-img">
+            <img src="images/ccc.png" alt="C#" class="skill-img">
+            <img src="/images/asp.png" alt="ASP.net" class="skill-img">
+            <img src="/images/python.png" alt="Python" class="skill-img">
+            <img src="/images/php.png" alt="PHP" class="skill-img">
+            
+          </div>
+        </div>
+
+        <div class="skills-section">
+          <div class="skill-card">
+              <h2>Soft Skills</h2>
+              <p>Leadership, Communication, Adaptability, Analytical Skills, Team Collaboration</p>
+          </div>
+          <div class="skill-card">
+              <h2>Technical Skills</h2>
+              <p>HTML5, CSS3, JavaScript, C#, ASP.net, Python, PHP, MySQL, MSSQL</p>
+          </div>
+      </div>
+      </section>
+          
+
+      <!-- CONTACT -->
+       <section>
+
+       </section>
+
+       <!-- FOOTER -->
+       <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 K Namith Acharya. All Rights Reserved.</p>
+      </footer>
+
+      
+      
+</body>
+<script src="/script.js"></script>
+</html>
